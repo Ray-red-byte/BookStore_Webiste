@@ -1,0 +1,183 @@
+body {
+    margin: auto;
+    font-family: 'Roboto';
+  }
+  
+  .title{
+    font-weight: bolder;
+    margin-left: 20px;
+  }
+  
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 100;
+    background-color: rgb(249, 180, 96);
+  }
+  
+.top-button{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 20px;
+  margin-left: 600px;
+}
+.previous-button{
+  background-color: rgb(218, 219, 219);
+  height: 35px;
+  width: 40px;
+  font-weight: medium;
+  cursor: pointer;
+  margin-right: 1000px;
+}
+.previous-img{
+  height: 20px;
+}
+
+  .middle-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .result-section{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 100px;
+    margin-left: 50px;
+    padding-bottom: 100px;
+  }
+  
+  .result-table {
+    text-align: center;
+    border-spacing: 0;
+    width: 1000px;
+    margin-left: 80px;
+    margin-top: 10px;
+  }
+  
+  .result-table th{
+    border: 1px solid black;
+    font-size: 18px;
+    font-weight: bolder;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  td {
+    border-bottom: 1.5px solid rgb(212, 117, 39); /* Add a 1px solid black bottom border */
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  
+  .row{
+      border: 1px solid black;
+      padding: 8px;
+  }
+    
+  .word{
+    margin-top: 100px;
+    padding-left: 0px;
+    font-size: 30px;
+  }
+  
+  .check-button button{
+    background-color: rgb(249, 180, 96);
+    font-weight: medium;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  .add-img, .minus-img{
+    position: relative;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    transition-property: transform;;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    margin-bottom: -2.5px;
+  }
+  .add-img:hover, .minus-img:hover {
+    transform: translateX(1px) translateY(0.5px);
+  }
+  .add-img{
+      margin-left: 5px;
+  }
+  .minus-img{
+      margin-right: 5px;
+  }
+  
+  .remove-button{
+    background-color: rgb(249, 180, 96);
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
+    font-weight: medium;
+    width: 70px;
+    cursor: pointer;
+  }
+    
+  
+  .update-section{
+    height: 100px;
+    width: 500px;
+    margin-left: -270px;
+    margin-top: 30px;
+  }
+  
+  .update-button{
+    background-color: rgb(249, 180, 96);
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
+    font-weight: medium;
+    font-size: 15px;
+    color:rgb(0, 0, 0);
+    width: 90px;
+    height: 30px;
+    cursor: pointer;
+  }
+  .update-bookname, .update-invoice, .update-cus{
+    border:2px solid ;
+    width: 150px;
+    height: 23.5px;
+    padding-bottom: -2px;
+  }
+  
+  .dropdown{
+    border:2px solid ;
+    font-size: 15px;
+    height: 29px;
+    width: 100px;
+  }
+  .input-value{
+    border:2px solid ;
+    width: 100px;
+    height: 23.5px;
+  }
+    
+  .table-content{
+    margin-top: 5px;
+    height: 50px;
+  }
+  
+  .table-summary{
+    position: sticky;
+    bottom: 0;
+    background-color: rgb(253, 186, 61);
+    padding: 10px;
+  }
+    
+    
+    
+    

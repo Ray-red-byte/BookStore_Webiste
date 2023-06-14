@@ -1,0 +1,90 @@
+body {
+    margin: auto;
+    font-family: 'Roboto';
+}
+  
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    background-color: rgb(249, 180, 96);
+}
+
+.cart {
+    font-weight: bolder;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.top-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 40px;
+    margin-left: 900px;
+}
+
+.previous-button {
+    background-color: rgb(218, 219, 219);
+    height: 35px;
+    width: 40px;
+    font-weight: medium;
+    cursor: pointer;
+    margin-right: 100px;
+}
+
+.previous-img {
+    height: 20px;
+}
+
+.middle-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: left;
+    height: 400px;
+    width: 400px;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.checkout-form {
+    margin-top: 100px;
+}
+
+select {
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px; /* Add margin-bottom to create space below each label */
+  }
+
+.dropdown,
+.text-input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.total-price{
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+
+.payment-button {
+    background-color: rgb(249, 180, 96);
+    font-size: 20px;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2);
+    font-weight: medium;
+    width: 130px;
+    height: 40px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+  

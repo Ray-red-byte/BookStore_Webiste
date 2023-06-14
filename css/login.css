@@ -1,0 +1,41 @@
+
+.login{
+	font-family: 'Roboto';
+	display: flex;
+	box-shadow: -2px 0 10px rgba(0, 0, 0, 0.2); /* Add the box shadow */
+	width: 300px; /* Set the width of the container */
+	height: 400px;
+  	margin: 50px auto; /* Set the left and right margins to "auto" */
+  	justify-content: center;
+  	flex-direction: column;
+  	justify-content: flex-start;
+  	align-items: center;
+  	margin-top: 100px;
+}
+
+h1{
+	margin-top: 50px;
+}
+
+.form{
+	padding-left: 25px;
+	margin-right: 30px;
+}
+
+img{
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+}
+
+.form-group{
+	display: flex;
+  	align-items: center;
+  	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.login-button{
+	margin-left: 66px;
+}
+

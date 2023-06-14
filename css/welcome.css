@@ -1,0 +1,25 @@
+.welcome{
+	display: flex;
+	font-family: 'Roboto';
+	margin: 50px auto; /* Set the left and right margins to "auto" */
+  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
+	align-items: center;
+  margin-top: 100px;
+}
+
+.welcome-title{
+	font-size: 60px;
+}
+
+.welcome-button{
+	font-weight: medium;
+    font-size: 30px;
+    width: 100px;
+    color: black;
+    background-color: darkorange;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
