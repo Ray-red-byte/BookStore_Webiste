@@ -10,7 +10,7 @@ This website is a project that contain basic functions about how a bookstore web
  5. Edit customer information
  6. Edit customer's invoice information
 
-## #Manager side
+### Manager side
  1. Check, Update Inventory
  2. Check, Update Invoice
  3. Check, Update Customer information
