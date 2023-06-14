@@ -29,7 +29,7 @@ This website is a project that contain basic functions about how a bookstore web
 ![Login](demo_img/login.png)
  1. If you enter the wrong password or have not register yet, it will alert
  2. If you left the unfill blank, it will alert
-#### Register $ Register Manager:
+#### Register & Register Manager:
 ![Login](demo_img/register.png)
  1. If you use account name same as another user, it will alert
  2. If you left the unfill blank, it will alert
