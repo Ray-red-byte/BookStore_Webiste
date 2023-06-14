@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BookStore</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/bookstore.css">
+</head>
+<body>
+  <header class="navbar">
+    <h1 class="bookstore">BookStore</h1>
+    </div>
+    <div class="top-button">
+      <div class="membership">
+        <button class="membership-button" onclick="location.href='membership.html'"><img class="membership-img" src="image/member-card.png"></button>
+      </div>
+      <div class="invoice">
+        <button class="invoice-button" onclick="location.href='information.html'"><img class="invoice-img" src="image/invoice.png"></button>
+      </div>
+      <form class="form" name="f2" action = "php/logout.php" method = "POST">
+        <button id="logout" class="logout-button"><img class="logout-img" src="image/logout.png"></button>
+      </form>
+      <div class="notification-container">
+        <button id="goToCart" class="gotocart-button" onclick="location.href='cart.html'"><img class="cart-img" src="image/shopping-cart.png"></button>
+        <div id="notification" class="notification-number">0</div>
+      </div>
+    </div>
+  </header>
+
+  <div class="middle-section">
+    <div class="sidebar">
+      <h2 style="font-weight: bolder;">Filters</h2>
+      <div>
+        <p class="filter-title">Publication Year</p>
+        <input type="range" id="yearRangeright" class="yearRangeright" min="1983" max="2023" step="1" value="2023"/>
+        <input type="range" id="yearRangeleft" class="yearRangeleft" min="1983" max="2023" step="1" value="1983"/>
+        <p><span id="selectedYearleft">1983</span> ~ <span id="selectedYearright">2023</span></p>
+      </div>
+
+      <div>
+        <p class="filter-title">Price</p>
+        <input type="range" id="priceRangeright" class="priceRangeright" min="2000" max="4000" step="1" value="4000"/>
+        <input type="range" id="priceRangeleft" class="priceRangeleft" min="2000" max="4000" step="1" value="2000"/>
+        <p><span id="selectedPriceleft">2000</span> ~ <span id="selectedPriceright">4000</span></p>
+      </div>
+
+      <button id="applyFilters" class="applyFilters">Apply</button>
+    </div>
+
+    <div class="right-section">
+        <div class="search">
+          <input type="text" style="height: 25px;" id="authorFilter" placeholder="Author">
+          <input type="text" style="height: 25px;margin-left: 1px;" id="booknameFilter" placeholder="BookName">
+
+          <button id="search" class="search-button"><img class="search-img" src="image/search.png"></button>
+        </div>
+
+        <div class="result-section">
+          <div>
+            <table id="bookTable" class="result-table">
+              <thead>
+                <th>BookName</th>
+                <th>Edition</th>
+                <th>Author</th>
+                <th>Detail</th>
+                <th>Add to Cart</th>
+              </thead>
+              <tbody>
+              </tbody>
+            </table>
+          </div>
+      
+          <div class="modal">
+            <div id="bookDetailsModal" class="modal-content">
+              <button class="close-button"><img class="close-img" src="image/close.png"></button>
+              <div class="detail">
+                <h2 id="modalTitle"></h2>
+                <p id="modalEdition"></p>
+                <p id="modalAuthor"></p>
+                <p id="modalPublicationYear"></p>
+                <p id="modalPrice"></p>
+              </div>
+          
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+
+
+  <script src="script/bookstore.js">
+
+
+  </script>
+</body>
+</html>

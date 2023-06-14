@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>login</title>
+		<link rel = "stylesheet" type = "text/css" href = "css/login.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div id = "frm" class="login">
+			<h1>Login</h1>
+			<form class="form" name="f1" action = "php/connect.php"  method = "POST">
+				<div class="form-group">
+					<img  src="image/user.png"><input class="user-input" type = "text" id ="user" name  = "user" placeholder="Username"/><br></br>
+				</div>
+				<div class="form-group">	
+					<img  src="image/padlock.png"><input class="password-input" type = "password" id ="pw" name  = "pw" placeholder="Password"/><br></br>
+				</div>
+
+				<input class="login-button" type =  "submit" id = "btn" value = "Login" onclick = "return validation()"/><br></br>
+			</form>
+			<a href="register_customer.html">Register
+			<a href="register_manager.html">Register as Manager
+		</div>
+		<script>
+			function validation()
+			{
+				var id=document.f1.user.value;
+				var ps=document.f1.pw.value;
+				if(id.length=="" && ps.length=="") {
+					alert("User Name and Password fields are empty");
+					return false;
+				}
+				else
+				{
+					if(id.length=="") 
+					{
+						alert("User Name is empty");
+						return false;
+					}
+					if (ps.length=="") 
+					{
+						alert("Password field is empty");
+						return false;
+					}
+				}
+			}
+		</script>
+	</body>
+</html>

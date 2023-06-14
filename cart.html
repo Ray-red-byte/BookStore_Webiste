@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cart</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/cart.css">
+</head>
+<body>
+  <header class="navbar">
+    <h1 class="cart">Cart</h1>
+    <div class="top-button">
+        <button id="previous" class="previous-button" onclick="location.href='bookstore.html'"><img class="previous-img" src="image/left.png"></button>
+    </div>
+  </header>
+
+  <div class="middle-section">  
+    <div class="table-section">
+        <table id="bookTable" class="result-table">
+            <thead>
+                <th>BookName</th>
+                <th>Discount</th>
+                <th>Amount</th>
+                <th>Total Price</th>
+                <th>In Stock</th>
+                <th>Remove</th>
+            </thead>
+            <tbody id="result">
+            </tbody>
+        </table>
+    </div>
+    <div class="bottom-section">
+        <div class="totalPrice-text-css">
+          <span class="totalPrice-text">Total Price :</span>
+          <span id="totalPrice-value">0</span>
+        </div>
+        <button id="checkout" class="checkout-button" onclick="sendToInvoice()">Check Out!</button>
+    </div>
+  </div>
+
+
+
+  <script src="script/cart.js"></script>
+</body>
+</html>

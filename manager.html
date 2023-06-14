@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Manager</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/manager.css">
+</head>
+<body>
+  <header class="navbar">
+    <h1 class="manager">Control Center</h1>
+    </div>
+    <div class="top-button">
+      <form class="form" name="f2" action = "php/logout.php" method = "POST">
+        <button id="logout" class="logout-button"><img class="logout-img" src="image/logout.png"></button>
+      </form>
+    </div>
+  </header>
+
+  <div class="middle-section">
+    <div class="word">What You Want To Check</div>
+    <div class="check-button">
+        <button id="invoice">INVOICE CHECK</button>
+        <button id="inventory">INVENTORY CHECK</button>
+        <button id="customer">CUSTOMER CHECK</button>
+        <button id="finance" onclick="location.href='php/report.php'">FINANCE CHECK</button>
+        <button id="order">ORDER DETAIL</button>
+    </div>
+    <div id="tableContainer">
+    </div>
+    <form id="update-form" method = "POST" class="update-section">
+      <div id="update-section">
+
+      </div>
+    </form>
+  </div>
+  
+  <script src="script/manage.js"></script>
+</body>
+</html>

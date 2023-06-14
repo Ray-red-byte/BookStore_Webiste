@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pay</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/invoice.css">
+</head>
+<body>
+  <header class="navbar">
+    <h1 class="cart">Checkout</h1>
+    <div class="top-button">
+      <button id="previous" class="previous-button" onclick="location.href='cart.html'">
+        <img class="previous-img" src="image/left.png">
+      </button>
+    </div>
+  </header>
+
+  <div class="middle-section">
+    <form id="checkout-form" class="checkout-form">
+      <label for="payment-method">Payment Method:</label>
+      <select id="payment-method" class="dropdown">
+        <option value="credit-card">Credit Card</option>
+        <option value="paypal">PayPal</option>
+        <option value="bank-transfer">Bank Transfer</option>
+      </select>
+
+      <label for="shipping-method">Shipping Method:</label>
+      <select id="shipping-method" class="dropdown">
+        <option value="standard">Standard Shipping</option>
+        <option value="express">Express Shipping</option>
+      </select>
+
+      <label for="invoice-method">Invoice Method:</label>
+      <select id="invoice-method" class="dropdown">
+        <option value="email">Email</option>
+        <option value="mail">Mail</option>
+      </select>
+
+      <label class="address" for="address">Address:</label>
+      <input type="text" id="address" placeholder="Enter your address" class="text-input">
+
+      <div id="total-price" class="total-price">Total Price: $0.00</div>
+      <button type="submit" id="pay" class="payment-button">Pay Now</button>
+    </form>
+  </div>
+
+  <script src="script/invoice.js"></script>
+</body>
+</html>

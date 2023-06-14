@@ -1,0 +1,83 @@
+<html>
+	<head>
+		<title>Register(Customer)</title>
+		<link rel = "stylesheet" type = "text/css" href = "css/register_customer.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div id = "frm" class="register">
+			<h1>Customer</h1>
+			<form class="form" name="f1" action = "php/process_customer_id.php" method = "POST">
+				<div class="form-group">
+                    <img src="image/user.png"><input type = "text" id ="user" name  = "user" placeholder="Username"/><br></br>
+                </div>    
+				<div class="form-group">
+                    <img src="image/fullname.png"><input type = "text" id ="fullname" name  = "fullname" placeholder="Fullname"/><br></br>
+                </div> 
+                <div class="form-group">
+                    <img src="image/mail.png"><input type = "text" id ="mail" name  = "mail" placeholder="Email"/><br></br>
+                </div>
+				<div class="form-group">
+                    <img src="image/smartphone-call.png"><input type = "text" id ="phone" name  = "phone" placeholder="Phone number"/><br></br>
+                </div>
+                <div class="form-group">
+                    <img src="image/padlock.png"><input type = "password" id ="pw" name  = "pw" placeholder="Password"/><br></br>
+                </div>
+                <input class="reenter" type = "password" id ="repw" name  = "repw" placeholder="reenter"/><br></br>
+				<input class="register-button" type =  "submit" id = "btn" value = "Register" onclick = "return validation()"/><br></br>
+			</form>
+		</div>
+		<script>
+			function validation()
+			{
+				var id=document.f1.user.value;
+                var mail=document.f1.mail.value;
+				var ps=document.f1.pw.value;
+                var repw=document.f1.repw.value;
+				if(id.length=="" && ps.length=="" && mail.length=="" && repw.length=="") {
+					alert("Fields are empty");
+					return false;
+				}
+				else
+				{
+					if(id.length=="") 
+					{
+						alert("User Name is empty");
+						return false;
+					}
+                    if(mail.length=="") 
+					{
+						alert("Mail is empty");
+						return false;
+					}
+					if (ps.length=="") 
+					{
+						alert("Password field is empty");
+						return false;
+					}
+                    if (repw.length=="") 
+					{
+						alert("Re Password field is empty");
+						return false;
+					}
+					if (fullname.length=="") 
+					{
+						alert("Fullname field is empty");
+						return false;
+					}
+					if (phone.length=="") 
+					{
+						alert("Phone field is empty");
+						return false;
+					}
+				}
+                if (repw != ps){
+                    alert("Password reenter wrong");
+					return false;
+                }
+			}
+		</script>
+	</body>
+</html>
