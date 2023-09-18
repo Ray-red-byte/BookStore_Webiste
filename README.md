@@ -1,6 +1,6 @@
 ![Screen Shot 2023-06-13 at 10 04 57](https://github.com/Ray-red-byte/BookStore_Webiste/assets/72739609/377d5368-c06c-44e6-9ddc-71d66dcaad98)# Bookstore Website
 ## 1.Introduction
-This website is a project that contain basic functions about how a bookstore website work
+This website is a project that contain basic functions about how a bookstore website work. 
 
 #### Customer side 
  1. Login, Logout, Register System
@@ -22,6 +22,7 @@ This website is a project that contain basic functions about how a bookstore web
  3. Faker package to generate fake books
 
 ## 3.ERD Diagram
+   Construct the ERD Diagtam to clearly show the relationship with each component.
 ![ERD Diagram](demo_img/ERD.png)
 
 ## 4.Demo
@@ -48,7 +49,32 @@ This website is a project that contain basic functions about how a bookstore web
 #### Cart page:
   1. Amount of book: Choose what number of books to select
   2. Remove: Remove the book
-![Uploading Screen Shot 2023-06-13 at 10.04.57.png…]()
+     ![Screen Shot 2023-06-13 at 10 04 57](https://github.com/Ray-red-byte/BookStore_Webiste/assets/72739609/9e19b49d-eae1-4aa6-9d0e-71fefba20398)
+
+#### Checkout page:
+   1. Payment Method: Credit Card / Bank Transfer
+   2. Shipping Method: Standard / Express
+   3. Invoice Method: email / mail
+   4. Address
+      ![Screen Shot 2023-09-18 at 15 58 32](https://github.com/Ray-red-byte/BookStore_Webiste/assets/72739609/5cebb0f1-39c3-4617-99ab-3034210a4174)
+
+#### Invoice page:
+    Shopping detail of the name / amount / invoice / date ... of books  
+![Screen Shot 2023-09-18 at 16 03 08](https://github.com/Ray-red-byte/BookStore_Webiste/assets/72739609/2914a9b7-75ed-4e44-871f-f55d60c9b861)
+
+#### Customer Information
+    Can update customer name / password /phone number
+    ![Screen Shot 2023-09-18 at 16 03 08](https://github.com/Ray-red-byte/BookStore_Webiste/assets/72739609/0690d587-62ed-4f07-be4c-3dfaf71a913e)
+
+#### Manager main page
+    1. Invoice check: Check each customer's invoice, can remove, update information
+    2. Inventory check: Check the book remain in the store, can remove, update information
+    3. Customer check: Ckeck customer status, can remove, update VIP / Coupon
+       ![Screen Shot 2023-09-18 at 16 03 08](https://github.com/Ray-red-byte/BookStore_Webiste/assets/72739609/2a6021fd-4b8b-43dd-b005-0c732bb4875b)
+
+    4. Finance check: Show the Top selling, current finance status
+       ![Screen Shot 2023-09-18 at 16 03 08](https://github.com/Ray-red-byte/BookStore_Webiste/assets/72739609/4a1ba8a1-9663-48c3-a42e-641fa30a23cd)
+
 
 
     
