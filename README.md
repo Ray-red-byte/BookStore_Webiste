@@ -1,4 +1,4 @@
-![Screen Shot 2023-06-13 at 10 04 57](https://github.com/Ray-red-byte/BookStore_Webiste/assets/72739609/377d5368-c06c-44e6-9ddc-71d66dcaad98)# Bookstore Website
+# Bookstore Website
 ## 1.Introduction
 This website is a project that contain basic functions about how a bookstore website work. 
 
