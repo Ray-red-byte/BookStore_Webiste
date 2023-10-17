@@ -36,7 +36,6 @@ This website is a project that contain basic functions about how a bookstore web
  2. If you left the unfill blank, it will alert
 #### BookStore MainPage
 ![Screen Shot 2023-10-17 at 14 47 50](https://github.com/Ray-red-byte/BookStore_Webiste/assets/72739609/f17809e9-05da-428b-b9a4-ffc789043d95)
-tore main page:
 
  1. Filter: It can change the the search result based on your Publication Year, Price
  2. Search button: It can change the the search result based on your Author, Bookname
