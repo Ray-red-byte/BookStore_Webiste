@@ -33,9 +33,9 @@
 			function validation()
 			{
 				var id=document.f1.user.value;
-                var mail=document.f1.mail.value;
+                		var mail=document.f1.mail.value;
 				var ps=document.f1.pw.value;
-                var repw=document.f1.repw.value;
+                		var repw=document.f1.repw.value;
 				if(id.length=="" && ps.length=="" && mail.length=="" && repw.length=="") {
 					alert("Fields are empty");
 					return false;
@@ -47,7 +47,7 @@
 						alert("User Name is empty");
 						return false;
 					}
-                    if(mail.length=="") 
+                    			if(mail.length=="") 
 					{
 						alert("Mail is empty");
 						return false;
@@ -57,7 +57,7 @@
 						alert("Password field is empty");
 						return false;
 					}
-                    if (repw.length=="") 
+                    			if (repw.length=="") 
 					{
 						alert("Re Password field is empty");
 						return false;
