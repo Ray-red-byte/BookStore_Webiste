@@ -64,7 +64,7 @@ This website is a project that contain basic functions about how a bookstore web
 
 ### Manager Side (Control Center)
 #### Invoice page:
-    1. Shopping detail of the name / amount / invoice / date ... of books  
+   <pre>1. Shopping detail of the name / amount / invoice / date ... of books  </pre>
 ![Screen Shot 2023-09-18 at 16 03 08](https://github.com/Ray-red-byte/BookStore_Webiste/assets/72739609/2914a9b7-75ed-4e44-871f-f55d60c9b861)
 
 #### Customer Information
