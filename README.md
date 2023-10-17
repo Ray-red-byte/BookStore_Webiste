@@ -64,21 +64,25 @@ This website is a project that contain basic functions about how a bookstore web
 
 ### Manager Side (Control Center)
 #### Invoice page:
-   <pre>1. Shopping detail of the name / amount / invoice / date ... of books  </pre>
+   Shopping detail of the name / amount / invoice / date ... of books
 ![Screen Shot 2023-09-18 at 16 03 08](https://github.com/Ray-red-byte/BookStore_Webiste/assets/72739609/2914a9b7-75ed-4e44-871f-f55d60c9b861)
 
 #### Customer Information
-    1. Can update customer name / password /phone number
-    ![Screen Shot 2023-09-18 at 16 03 08](https://github.com/Ray-red-byte/BookStore_Webiste/assets/72739609/0690d587-62ed-4f07-be4c-3dfaf71a913e)
+   Manager can update customer information
+   ![Screen Shot 2023-10-17 at 14 58 20](https://github.com/Ray-red-byte/BookStore_Webiste/assets/72739609/ab4c0938-4f85-40f5-85a9-d86bdb841d5a)    
 
 #### Manager main page
-    1. Invoice check: Check each customer's invoice, can remove, update information
-    2. Inventory check: Check the book remain in the store, can remove, update information
-    3. Customer check: Ckeck customer status, can remove, update VIP / Coupon
-      ![Screen Shot 2023-10-17 at 14 58 20](https://github.com/Ray-red-byte/BookStore_Webiste/assets/72739609/23309b16-b9bf-4d94-a46d-7b0932109790)
+   1. Invoice check: Check each customer's invoice, can remove, update information
+   2. Inventory check: Check the book remain in the store, can remove, update information
+   3. Customer check: Ckeck customer status, can remove, update VIP / Coupon
+   ![Screen Shot 2023-09-18 at 16 03 08](https://github.com/Ray-red-byte/BookStore_Webiste/assets/72739609/bd4bdad2-4b2a-483b-af1e-e1660736556d)
 
-    4. Finance check: Show the Top selling, current finance status
-       ![Screen Shot 2023-09-18 at 16 16 04](https://github.com/Ray-red-byte/BookStore_Webiste/assets/72739609/e3868ffd-f264-4b60-a405-5c690e6ea863)
+   4. Finance check: Show the Top selling, current finance status
+   ![Screen Shot 2023-06-14 at 15 30 07](https://github.com/Ray-red-byte/BookStore_Webiste/assets/72739609/df1f8b3c-fab8-4b30-a375-9e8267046b7e)
+
+    
+      
+
 
 
 
