@@ -75,13 +75,10 @@ This website is a project that contain basic functions about how a bookstore web
    1. Invoice check: Check each customer's invoice, can remove, update information
    2. Inventory check: Check the book remain in the store, can remove, update information
    3. Customer check: Ckeck customer status, can remove, update VIP / Coupon
-   ![Screen Shot 2023-09-18 at 16 03 08](https://github.com/Ray-red-byte/BookStore_Webiste/assets/72739609/bd4bdad2-4b2a-483b-af1e-e1660736556d)
+      ![Screen Shot 2023-09-18 at 16 03 08](https://github.com/Ray-red-byte/BookStore_Webiste/assets/72739609/bd4bdad2-4b2a-483b-af1e-e1660736556d)
 
-   4. Finance check: Show the Top selling, current finance status
-   ![Screen Shot 2023-06-14 at 15 30 07](https://github.com/Ray-red-byte/BookStore_Webiste/assets/72739609/df1f8b3c-fab8-4b30-a375-9e8267046b7e)
-
-    
-      
+   4. Finance check: Show the Top selling, current finance status    
+   ![Screen Shot 2023-09-18 at 16 16 04](https://github.com/Ray-red-byte/BookStore_Webiste/assets/72739609/ab765f89-0c75-4a34-beaa-1fdc0fca32fd)
 
 
 
